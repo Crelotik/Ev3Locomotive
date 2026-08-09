@@ -2,7 +2,7 @@
 ![Photo of train controller](/Pictures/Photo1.jpg)
 
 # Video
-![video on youtube]()
+![video on youtube](https://youtu.be/iaOfkvl1cZQ)
 
 # Features
 * Operate locomotive by emulation of keystrokes on PC
