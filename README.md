@@ -52,8 +52,8 @@ and change line (14 and 15) with your ip and port:
 import select
 import json
 
-ip = "" <-- Change this, ip should be string, for example `ip = "192.168.1.180"`
-port = 0 <-- And this, port should be number, for example `port = 9600`
+ip = "" <-- Change this, ip should be string, for example " ip = "192.168.1.180" "
+port = 0 <-- And this, port should be number, for example " port = 9600 "
 
 thrust = 0
 thrust_maximum = 0
