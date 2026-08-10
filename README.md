@@ -5,10 +5,22 @@
 [![video on youtube](https://img.youtube.com/vi/iaOfkvl1cZQ/0.jpg)](https://youtu.be/iaOfkvl1cZQ)
 
 # Features
+* Client-Server architecture, where EV3 client and PC - server
 * Operate locomotive by emulation of keystrokes on PC
 * Works via Wi-Fi
 * Support custom keystroke logic via .py module
 * Show your own .bmp photos or text on display
+
+# Assembling
+Connect all things according to the table
+
+| Sensor/Motor              | Port |
+|---------------------------|------|
+| Color (reverse)           | 3    |
+| Button (sand)             | 2    |
+| Motor (thrust)            | B    |
+| Motor (locomotive brake)  | C    |
+| Motor (train brake)       | D    |
 
 # Installation
 ## On ev3
