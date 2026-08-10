@@ -31,7 +31,7 @@ Connect to your ev3 via SSH by following [this instruction](https://www.ev3dev.o
 ### 3. Cloning repo
 Clone repo by this command:
 ```
-git clone https://github.com/Svinada/Ev3Locomotive.git
+git clone https://github.com/Crelotik/Ev3Locomotive.git
 ```
 ### 4. Run script
 First of all run `PCdriver.exe` or `PC.py` on your PC. On ev3 open created folder by 
@@ -52,8 +52,8 @@ and change line (14 and 15) with your ip and port:
 import select
 import json
 
-ip = "" <-- Change this, ip should be string
-port = 0 <-- And this, port should be number
+ip = "" <-- Change this, ip should be string, for example `ip = "192.168.1.180"`
+port = 0 <-- And this, port should be number, for example `port = 9600`
 
 thrust = 0
 thrust_maximum = 0
@@ -66,9 +66,9 @@ Then press `CTRL+X`, save modified buffer by `Y` and press `Enter`.
 Stop script by pressing `backspace` button on ev3 or press `CTRL+C` in SSH window.
 ## On PC
 ### With default configs
-Just download latest release with name `PCdriver_and_default_configs.zip` [from here](https://github.com/Svinada/Ev3Locomotive/releases) (default port is `9600`, you can change it in `config.ini`).
+Just download latest release with name `PCdriver_and_default_configs.zip` [from here](https://github.com/Crelotik/Ev3Locomotive/releases) (default port is `9600`, you can change it in `config.ini`).
 ### Without default configs
-Download `PCdriver.exe` (it will create `config.ini` and folder `game_profiles` in the folder where it was launched) [from here](https://github.com/Svinada/Ev3Locomotive/releases).
+Download `PCdriver.exe` (it will create `config.ini` and folder `game_profiles` in the folder where it was launched) [from here](https://github.com/Crelotik/Ev3Locomotive/releases).
 
 ### If script doesn't work, try to run it as an administrator
 
