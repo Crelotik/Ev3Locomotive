@@ -14,13 +14,16 @@
 # Assembling
 Connect all things according to the table
 
-| Sensor/Motor              | Port |
-|---------------------------|------|
-| Color (reverse)           | 3    |
-| Button (sand)             | 2    |
-| Motor (thrust)            | B    |
-| Motor (locomotive brake)  | C    |
-| Motor (train brake)       | D    |
+| Sensor/Motor                   | Port |
+|--------------------------------|------|
+| Color (reverse)                | 3    |
+| Button (sand)                  | 2    |
+| Medium motor (thrust)          | B    |
+| Large motor (locomotive brake) | C    |
+| Large motor (train brake)      | D    |
+
+For the color sensor to work, you’ll need a component with three colors: red for reverse, black for neutral, and green for forward
+![Photo of color sensor](/Pictures/ColorSensorPhoto.jpg)
 
 # Installation
 ## On ev3
