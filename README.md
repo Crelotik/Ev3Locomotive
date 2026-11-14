@@ -12,7 +12,14 @@
 * Show your own .bmp photos or text on display
 
 # Assembling
-Connect all things according to the table
+1. Assemble the controller according to the instructions from the ["Assembly_Instructions.pdf"](https://github.com/Crelotik/Ev3Locomotive/releases/download/Beta-v0.1/Assembly_Instructions.pdf) (you can find it in [releases](https://github.com/Crelotik/Ev3Locomotive/releases)).
+
+2. For the color sensor to work, you’ll need a component with three colors: red for reverse, black for neutral, and green for forward. I recommend simply repainting the part with part number 3941 (see photo).
+![Photo of color sensor](/Pictures/ColorSensorPhoto.jpg)
+
+3. For the reverser to work, secure the rubber band from step 51 to the axle from step 57 (like my green rubber band in the photo).
+
+4. Connect all cables according to the table
 
 | Sensor/Motor                   | Port |
 |--------------------------------|------|
@@ -21,9 +28,6 @@ Connect all things according to the table
 | Medium motor (thrust)          | B    |
 | Large motor (locomotive brake) | C    |
 | Large motor (train brake)      | D    |
-
-For the color sensor to work, you’ll need a component with three colors: red for reverse, black for neutral, and green for forward
-![Photo of color sensor](/Pictures/ColorSensorPhoto.jpg)
 
 # Installation
 ## On ev3
